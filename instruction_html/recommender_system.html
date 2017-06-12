@@ -1,0 +1,236 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>大数据分析及应用安徽省重点实验室</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="../favicon.ico">
+
+    <link rel="stylesheet" href="../css/news_list-css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/news_list-css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/news_list-css/monokai_sublime.min.css">
+    <link href="../css/news_list-css/magnific-popup.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/news_list-css/screen.css?v=264c8ae81f" />
+
+    <script type="text/javascript" src="../shared/ghost-url.min.js?v=264c8ae81f"></script>
+
+<body class="home-template">
+
+<!-- start header -->
+<header class="main-header"  style="background-image: url(../image/news_list_head.png);center:mid no-repeat;width:100%; height:200px;">
+    <!--<div class="container">-->
+    <!--<div class="row">-->
+    <!--<div class="col-sm-12">-->
+    <!--&lt;!&ndash; start logo &ndash;&gt;-->
+    <!--<a class="branding" href="index.html" title="大数据分析及应用安徽省重点实验室"><img src="image/home_page.png" alt="大数据分析及应用安徽省重点实验室"></a>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
+</header>
+<!-- end header -->
+
+<!-- start navigation -->
+<nav class="main-navigation">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="navbar-header">
+                        <span class="nav-toggle-button collapsed" data-toggle="collapse" data-target="#main-menu">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-bars"></i>
+                        </span>
+                </div>
+                <div class="collapse navbar-collapse" id="main-menu">
+                    <!--<ul class="menu">-->
+                    <!--<li class="nav-current" role="presentation"><a href="/">首页</a></li>-->
+                    <!--<li  role="presentation"><a href="http://wenda.ghostchina.com">论坛</a></li>-->
+                    <!--<li  role="presentation"><a href="/ghost-cheat-sheet/">快捷手册</a></li>-->
+                    <!--<li  role="presentation"><a href="http://docs.ghostchina.com/zh/">中文文档</a></li>-->
+                    <!--<li  role="presentation"><a href="/download/">下载</a></li>-->
+                    <!--<li  role="presentation"><a href="/about/">关于</a></li>-->
+                    <!--</ul>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- end navigation -->
+
+
+<!-- start site's main content area -->
+<section class="content-wrap">
+    <div class="container">
+        <div class="row">
+
+            <main class="col-md-8 main-content">
+
+                <article id=97 class="post">
+
+                    <div class="post-head">
+                        <h1 class="post-title"><a href="">Overview of Recommender System</a></h1>
+                        <div class="post-meta">
+                            <!--<span class="author">作者：<a href="/author/wangsai/">王赛</a></span> &bull;-->
+                            <time class="post-date" datetime="2015年7月5日" title="2015年7月5日">2015年7月5日</time>
+                        </div>
+                    </div>
+                    <div class="post-content">
+                        <p>Recommender systems typically produce a list of recommendations in one of two ways – through <a href="/wiki/Collaborative_filtering" title="Collaborative filtering">collaborative</a> and <a href="/wiki/Content-based_filtering" class="mw-redirect" title="Content-based filtering">content-based filtering</a> or the personality-based approach.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">[7]</a></sup> <a href="/wiki/Collaborative_filtering" title="Collaborative filtering">Collaborative filtering</a> approaches building a model from a user's past behaviour (items previously purchased or selected and/or numerical ratings given to those items) as well as similar decisions made by other users. This model is then used to predict items (or ratings for items) that the user may have an interest in.<sup id="cite_ref-Recommender2010_8-0" class="reference"><a href="#cite_note-Recommender2010-8">[8]</a></sup> <a href="/wiki/Content-based_filtering" class="mw-redirect" title="Content-based filtering">Content-based filtering</a> approaches utilize a series of discrete characteristics of an item in order to recommend additional items with similar properties.<sup id="cite_ref-mooney99_9-0" class="reference"><a href="#cite_note-mooney99-9">[9]</a></sup> These approaches are often combined (see <a href="/wiki/Recommender_system#Hybrid_recommender_systems" title="Recommender system">Hybrid Recommender Systems</a>).</p>
+                        <p>The differences between collaborative and content-based filtering can be demonstrated by comparing two popular music recommender systems – <a href="/wiki/Last.fm" title="Last.fm">Last.fm</a> and <a href="/wiki/Pandora_Radio" title="Pandora Radio">Pandora Radio</a>.</p>
+                        <ul>
+                            <li>Last.fm creates a "station" of recommended songs by observing what bands and individual tracks the user has listened to on a regular basis and comparing those against the listening behavior of other users. Last.fm will play tracks that do not appear in the user's library, but are often played by other users with similar interests. As this approach leverages the behavior of users, it is an example of a collaborative filtering technique.</li>
+                            <li>Pandora uses the properties of a song or artist (a subset of the 400 attributes provided by the <a href="/wiki/Music_Genome_Project" title="Music Genome Project">Music Genome Project</a>) in order to seed a "station" that plays music with similar properties. User feedback is used to refine the station's results, deemphasizing certain attributes when a user "dislikes" a particular song and emphasizing other attributes when a user "likes" a song. This is an example of a content-based approach.</li>
+                        </ul>
+                        <p>Each type of system has its own strengths and weaknesses. In the above example, Last.fm requires a large amount of information on a user in order to make accurate recommendations. This is an example of the <a href="/wiki/Cold_start" title="Cold start">cold start</a> problem, and is common in collaborative filtering systems.<sup id="cite_ref-rubens2016_10-0" class="reference"><a href="#cite_note-rubens2016-10">[10]</a></sup><sup id="cite_ref-elahi2016_11-0" class="reference"><a href="#cite_note-elahi2016-11">[11]</a></sup><sup id="cite_ref-schein02_12-0" class="reference"><a href="#cite_note-schein02-12">[12]</a></sup> While Pandora needs very little information to get started, it is far more limited in scope (for example, it can only make recommendations that are similar to the original seed).</p>
+                        <p>Recommender systems are a useful alternative to <a href="/wiki/Search_algorithm" title="Search algorithm">search algorithms</a> since they help users discover items they might not have found by themselves. Interestingly enough, recommender systems are often implemented using search engines indexing non-traditional data.</p>
+                        <p>Montaner provided the first overview of recommender systems from an intelligent agent perspective.<sup id="cite_ref-13" class="reference"><a href="#cite_note-13">[13]</a></sup> Adomavicius provided a new, alternate overview of recommender systems.<sup id="cite_ref-Toward_the_Next_Generation_of_Recommender_Systems_14-0" class="reference"><a href="#cite_note-Toward_the_Next_Generation_of_Recommender_Systems-14">[14]</a></sup> Herlocker provides an additional overview of evaluation techniques for recommender systems,<sup id="cite_ref-15" class="reference"><a href="#cite_note-15">[15]</a></sup> and Beel et al. discussed the problems of offline evaluations.<sup id="cite_ref-:0_16-0" class="reference"><a href="#cite_note-:0-16">[16]</a></sup> Beel et al. have also provided literature surveys on available research paper recommender systems and existing challenges.<sup id="cite_ref-17" class="reference"><a href="#cite_note-17">[17]</a></sup><sup id="cite_ref-18" class="reference"><a href="#cite_note-18">[18]</a></sup><sup id="cite_ref-19" class="reference"><a href="#cite_note-19">[19]</a></sup></p>
+                    </div>
+                    <!--<footer class="post-footer clearfix">-->
+                    <!--<div class="pull-left tag-list">-->
+                    <!--<i class="fa fa-folder-open-o"></i>-->
+                    <!---->
+                    <!--</div>-->
+                    <!--<div class="pull-right share">-->
+                    <!--</div>-->
+                    <!--</footer>-->
+                </article>
+
+
+
+                <nav class="pagination" role="navigation">
+                    <span class="page-number">第 1 页 &frasl; 共 1 页</span>
+                    <!--<a class="older-posts" href="/page/2/"><i class="fa fa-angle-right"></i></a>-->
+                </nav>
+
+
+            </main>
+
+            <aside class="col-md-4 sidebar">
+                <!-- start widget -->
+                <!-- end widget -->
+
+                <!-- start tag cloud widget -->
+                <div class="widget">
+                    <h4 class="title">相关链接</h4>
+                    <div class="content community">
+                        <p>微信公众号：xxxxxxxxx</p>
+                        <p><a href="../index.html" title="实验室主页" target="_blank" > 实验室主页</a></p>
+                    </div>
+                </div>
+                <!-- end tag cloud widget -->
+
+                <!-- start widget -->
+                <!--<div class="widget">-->
+                <!--<h4 class="title">下载 Ghost</h4>-->
+                <!--<div class="content download">-->
+                <!--<a href="/download/" class="btn btn-default btn-block" onclick="_hmt.push(['_trackEvent', 'big-button', 'click', '下载Ghost'])">Ghost 中文版（0.6.0）</a>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!-- end widget -->
+
+                <!-- start tag cloud widget -->
+                <!--<div class="widget">-->
+                <!--<h4 class="title">标签云</h4>-->
+                <!--<div class="content tag-cloud">-->
+                <!--<a href="/tag/jquery/">jQuery</a>-->
+                <!--<a href="/tag/ghost-0-7-ban-ben/">Ghost 0.7 版本</a>-->
+                <!--<a href="/tag/opensource/">开源</a>-->
+                <!--<a href="/tag/zhu-shou-han-shu/">助手函数</a>-->
+                <!--<a href="/tag/tag-cloud/">标签云</a>-->
+                <!--<a href="/tag/navigation/">导航</a>-->
+                <!--<a href="/tag/customize-page/">自定义页面</a>-->
+                <!--<a href="/tag/static-page/">静态页面</a>-->
+                <!--<a href="/tag/roon-io/">Roon.io</a>-->
+                <!--<a href="/tag/configuration/">配置文件</a>-->
+                <!--<a href="/tag/upyun/">又拍云存储</a>-->
+                <!--<a href="/tag/upload/">上传</a>-->
+                <!--<a href="/tag/handlebars/">Handlebars</a>-->
+                <!--<a href="/tag/email/">邮件</a>-->
+                <!--<a href="/tag/shortcut/">快捷键</a>-->
+                <!--<a href="/tag/yong-hu-zhi-nan/">用户指南</a>-->
+                <!--<a href="/tag/theme-market/">主题市场</a>-->
+                <!--<a href="/tag/release/">新版本发布</a>-->
+
+
+                <!--<a href="/tag-cloud/">...</a>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!-- end tag cloud widget -->
+
+                <!-- start widget -->
+                <!-- end widget -->
+
+                <!-- start widget -->
+                <!-- end widget -->                </aside>
+
+        </div>
+    </div>
+</section>
+
+<footer class="main-footer">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-sm-4">
+                <div class="widget">
+                    <h4 class="title">相关链接</h4>
+                    <div class="content tag-cloud friend-links">
+                        <a href="http://www.ustc.edu.cn" title="中国科学技术大学" onclick="_hmt.push(['_trackEvent', 'link', 'click', 'bootcsscom'])" target="_blank">中国科学技术大学</a>
+                        <a href="http://cs.ustc.edu.cn" title="计算机科学与技术学院" onclick="_hmt.push(['_trackEvent', 'link', 'click', 'bootcsscom'])" target="_blank">计算机科学与技术学院</a>
+                        <hr>
+                        <a href="../index.html" title="实验室主页" onclick="_hmt.push(['_trackEvent', 'link', 'click', 'bootcsscom'])" target="_blank">实验室主页</a>
+                        <a href="../news_list.html" title="主页" onclick="_hmt.push(['_trackEvent', 'link', 'click', 'bootcsscom'])" target="_blank">主页</a>
+                        <hr>
+                    </div>
+                </div></div>
+        </div>
+    </div>
+</footer>
+
+<a href="#" id="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="//cdn.bootcss.com/fitvids/1.1.0/jquery.fitvids.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/8.5/highlight.min.js"></script>
+<script src="//cdn.bootcss.com/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
+<script src="/assets/js/main.js?v=264c8ae81f"></script>
+<script>
+    $(function(){
+        $('.post-content img').each(function(item){
+            var src = $(this).attr('src');
+
+            $(this).wrap('<a href="' + src + '" class="mfp-zoom" style="display:block;"></a>');
+        });
+
+        /*$('.post-content').magnificPopup({
+         delegate: 'a',
+         type: 'image'
+         });*/
+    });
+</script>
+
+<script>
+    window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+
+<script>
+    $(function(){
+        var version = '0.7.4';
+        var $download =  $('.download > a').first();
+        var html = $download.html().replace(/\d\.\d\.\d/, version);
+
+        $download.html(html);
+    });
+</script>
+<script type="text/javascript">
+    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F6338835ad35c6d950a554fdedb598e48' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+</body>
+</html>

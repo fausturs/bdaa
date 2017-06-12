@@ -1,0 +1,157 @@
+/* Add here all your css styles (customizations) */
+/* Copyright */
+.copyright {
+	background: #333;
+	padding: 25px 0 15px;
+}
+.copyright .cr-left {
+	padding: 0 0 11px;
+}
+.copyright .cr-left p {
+	color: #CCC;
+	margin: 0;
+	vertical-align: middle;
+}
+.copyright .cr-left a {
+	color: #fff;
+	font-weight: bold;
+}
+.copyright .cr-right {
+	text-align: right;
+}
+
+
+
+/* Copyright Social list */
+
+.cr-right .cr-list {
+	margin: 0;
+}
+.cr-right .cr-list li > a {
+	color: #8e8e8e;
+	padding: 5px 8px;
+	background: transparent;
+	transition: all .3s;
+}
+.cr-right .cr-list li > a.fb {
+	padding: 5px 10px;
+}
+.cr-right .cr-list li > a:hover {
+	color: #fff;
+	background: #4fd2c2;
+}
+
+/*
+
+.cr-right .cr-list {
+	margin: 0;
+}
+.cr-right .cr-list li > a {
+	color: #fff;
+	
+}
+.cr-right .cr-list li > a.fb {
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+.cr-right .cr-list li > a:hover {
+	color: #fff;
+	
+} */
+
+
+/* Responsive mode --corrected to hide image*/
+@media (max-width: 992px) {
+	.interactive-slider-v2 img {
+		display:none;
+	}
+	.interactive-slider-v2 .promo-info {
+		padding: 56px 20px 0;
+	}
+}
+
+/*---
+	Pricing
+---*/
+.pricing-v9 {
+	border: 1px solid #eef2f7;
+}
+.pricing-v9:hover {
+	box-shadow: 0 0 15px #ddd;
+}
+.pricing-v9-head {
+	border-bottom: 1px solid #eef2f7;
+}
+.pricing-v9-head h3 {
+	margin: 0;
+}
+.pricing-v9 ul {
+	margin: 0;
+}
+.pricing-v9 li {
+	margin-bottom: 5px;
+}
+.pricing-v9-price,
+.pricing-v9-footer,
+.pricing-v9 ul,
+.pricing-v9-head {
+	padding: 20px 15px;
+}
+.pricing-v9-price,
+.pricing-v9-footer {
+	border-top: 1px solid #eef2f7;
+}
+.pricing-v9-footer a {
+  color: #fff; }
+  
+.pricing-v9-price {
+	font-weight: 500;
+}
+.pricing-v9-price a  .btn-u.btn-sub {
+	background: #4fd2c2;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 11px;
+	border-radius: 10px;
+	font-weight: bold;
+	padding: 15px 25px;
+	max-height: 45px;
+	margin-left:-10px;
+}
+
+.pricing-v9-price .btn-u.btn-sub:hover,
+.pricing-v9-price .btn-u.btn-sub:focus {
+	background: #41b5a7;
+}
+
+.g-heading-v7 .h2 {
+	text-transform: uppercase;
+	font-size: 28px;
+	font-weight: 500;
+	position: relative;
+	margin-top: 0;
+	letter-spacing: 1.5px;
+}
+.g-heading-v7 p {
+	margin: 0 auto;
+	font-size: 16px;
+	max-width: 760px;
+}
+.subscribe .input-group .btn-u.btn-sub {
+	background: #4fd2c2;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 11px;
+	border-radius: 10px;
+	font-weight: bold;
+	padding: 15px 25px;
+	max-height: 45px;
+	margin-left:-10px;
+}
+
+.subscribe .input-group .btn-u.btn-sub:hover,
+.subscribe .input-group .btn-u.btn-sub:focus {
+	background: #41b5a7;
+}
