@@ -8,5 +8,12 @@
 
 .member_info {
     font-size: 1.6rem;
+    margin-bottom: 15px;
+}
 
+.member_info h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 1.7rem;
+    font-weight: 500;
 }
