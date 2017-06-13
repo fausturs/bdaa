@@ -34,3 +34,4 @@
 #macos file
 .DS_Store
 __MACOSX
+.idea/workspace.xml
