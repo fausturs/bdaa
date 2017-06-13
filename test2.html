@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/swiper-css/swiper.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/swiper-css/" rel="stylesheet" type="text/css" />
+    <link href="css/swiper-css/base.css" rel="stylesheet" media="screen" type="text/css" />
+    <link href="css/swiper-css/layout.css" rel="stylesheet" media="screen" type="text/css" />
+    <link rel="stylesheet" href="css/swiper-css/highlight.css">
+    <link rel="stylesheet" href="css/swiper-css/xcode.css">
+    <script src="js/swiper-js/highlight.pack.js"></script>
+    <script src="js/swiper-js/jquery-1.10.1.min.js"></script>
+    <script src="js/swiper-js/swiper.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+<div class="swiper-container" id="swiper-container3" style="height:300px;">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide blue-slide">
+            slider1</div>
+        <div class="swiper-slide red-slide">
+            slider2</div>
+        <div class="swiper-slide orange-slide">
+            slider3</div>
+        <div class="swiper-slide blue-slide">
+            slider4</div>
+        <div class="swiper-slide red-slide">
+            slider5</div>
+        <div class="swiper-slide orange-slide">
+            slider6</div>
+    </div>
+</div>
+<script language="javascript">
+    var mySwiper = new Swiper('#swiper-container1',{
+        effect : 'fade',
+
+    })
+    var mySwiper2 = new Swiper('#swiper-container2',{
+        effect : 'cube',
+    })
+    var mySwiper3 = new Swiper('#swiper-container3',{
+        effect : 'coverflow',
+        slidesPerView: 3,
+        centeredSlides: true,
+        loop: true
+    })
+    var mySwiper4 = new Swiper('#swiper-container4',{
+        effect : 'flip',
+    })
+</script>
+
+</body>
+</html>

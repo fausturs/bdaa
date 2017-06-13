@@ -47,6 +47,10 @@
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
 
+    <!-- CSS Swiper -->
+
+
+
     <!-- NEW JS-->
     <script src="js/news-js/fontbase.js"></script>
     <!-- JS Global Compulsory -->
@@ -77,6 +81,10 @@
     <script src="js/cube-portfolio.js"></script>
     <script src="js/contact.js"></script>
     <script src="js/start.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="js/swiper-js/swiper.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
     <script>
         $(function() {
             App.init();
@@ -99,7 +107,9 @@
     <script src="assets/plugins/sky-forms-pro/skyforms/js/jquery.placeholder.min.js"></script>
     <![endif]-->
 
+    <!-- 滚屏效果    -->
 </head>
+
 <body id="body" data-spy="scroll" data-target=".one-page-header" class="demo-lightbox-gallery">
 
 <!-- Header -->
@@ -120,6 +130,8 @@
             <img src="image/bdaa_icon.png" style="height: 50px" alt="Big Data Analysis and Application">
                 <ul class="nav navbar-nav">
                     <li class="page-scroll">	<a href="#index">主页</a>
+                    </li>
+                    <li class="page-scroll">	<a href="#intro">概况简介</a>
                     </li>
                     <li class="page-scroll"><a href="#news">新闻动态</a>
                     </li>
@@ -170,10 +182,15 @@
                             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                             <li data-target="#myCarousel" data-slide-to="1"></li>
                             <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                            <li data-target="#myCarousel" data-slide-to="4"></li>
                         </ol>
                         <!-- 轮播（Carousel）项目 -->
                         <div class="carousel-inner">
                             <div class="item active">
+                                <img src="image/bg_05.JPG" alt="Fifth slide">
+                            </div>
+                            <div class="item">
                                 <img src="image/bg_01.JPG" alt="First slide">
                             </div>
                             <div class="item">
@@ -182,6 +199,10 @@
                             <div class="item">
                                 <img src="image/bg_03.JPG" alt="Third slide">
                             </div>
+                            <div class="item">
+                                <img src="image/bg_04.jpg" alt="Forth slide">
+                            </div>
+
                         </div>
                         <!-- 轮播（Carousel）导航 -->
                         <a class="carousel-control left" href="#myCarousel"
@@ -197,7 +218,7 @@
 
 <section id="intro">
     <div class="g-pt-70 g-pb-0">
-        <div class="g-heading-v10 g-mb-35 text-center">
+        <div class="g-heading-v10 g-mb-20 text-center">
             <h2><em class="block-name"><span>01.</span>概况简介 </em> 实验室 <strong>介绍</strong></h2>
         </div>
     </div>
@@ -246,7 +267,7 @@
 <section id="news">
     <div class="g-pt-70 g-pb-0">
         <div class="g-heading-v10 g-mb-35 text-center">
-            <h2><em class="block-name"><span>01.</span> 新闻动态</em> 实验室 <strong>动态</strong></h2>
+            <h2><em class="block-name"><span>02.</span> 新闻动态</em> 实验室 <strong>动态</strong></h2>
         </div>
     </div>
     <div class="container">
@@ -402,7 +423,7 @@
 <section id="member">
     <div class="g-pt-70 g-pb-0">
         <div class="g-heading-v10 g-mb-45 text-center">
-            <h2><em class="block-name"><span>02.</span> 成员介绍</em> 实验室 <strong>成员</strong> </h2>
+            <h2><em class="block-name"><span>03.</span> 成员介绍</em> 实验室 <strong>成员</strong> </h2>
         </div>
     </div>
     <div class="container">
@@ -637,59 +658,171 @@
 </section>
 
 <section id="research">
-    <div class="g-pt-60 g-pb-30">
-        <div class="g-heading-v10 g-mb-65 text-center">
-            <h2><em class="block-name"><span>03.</span> 研究方向</em> 四大 <strong>研究室</strong>、体现校企 <strong>共建</strong> 特色</h2>
+    <div class="g-pt-70 g-pb-30">
+        <div class="g-heading-v10 g-mb-45 text-center">
+            <h2><em class="block-name"><span>04.</span> 研究方向</em> 四大 <strong>研究室</strong></h2>
         </div>
-        <div class="row equal-height-columns">
-            <div class="col-md-4 benefit-box animated fadeIn wow animated" data-wow-duration="1.5s" style="visibility: visible; animation-duration: 1.5s; animation-name: fadeIn;">
-                <div class="benefit equal-height-column" style="height: 280px;">	<img src="image/logo_sta.png" height="100" width="100">
-                    <p><br></p>
-                    <h3>大数据分析方法研究室</h3>
-                    <p>主要研究能够有效处理社会感知数据、教育数据、人机交互数据等具有实际应用背景和特点的大数据学习、分析的理论、模型与方法，为大数据分析的实际应用提供坚实理论基础。拟开展的核心技术研究方向包括：多源数据融合与统一表征方法，高维、动态、多源异构数据建模方法，机器学习与数据挖掘方法，面向语音、图像、文本大数据的深度学习模型等。</p>
-                    <br>
-                    <div class="pricing-v9-footer">
-                        <a href="sublabs_html/analysis_sublab.html" target="_blank" class="btn-u btn-u-lg btn-u-light-green btn-u-upper rounded-2x">了解更多</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 benefit-box animated fadeIn wow animated" data-wow-duration="1.5s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.3s; animation-name: fadeIn;">
-                <div class="benefit equal-height-column" style="height: 280px;">	<img src="image/logo_ana.png" height="100" width="100">
-                    <p><br></p>
-                    <h3>智慧教育大数据分析与应用研究室</h3>
-                    <p>主要研究对象为教育领域所涵盖的学生学习、教师课堂教学、校园教育管理等应用中的多源异构数据，为解决因材施教以及教育不均衡化问题等提供新视野、新思路、新尝试。拟研究的方向包括：教学与学习场景中的学习行为模式挖掘技术、智慧学习环境的评测技术等；学习者的认知诊断技术、学习资源的表征方法、个性化学习资源推荐技术、自适应学习方法等；教育管理场景中的教育舆情分析技术、教育资源的自动化标注和智能配置方法等。</p>
-                    <div class="pricing-v9-footer">
-                        <a href="sublabs_html/education_sublab.html" target="_blank" class="btn-u btn-u-lg btn-u-light-green btn-u-upper rounded-2x">了解更多</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 benefit-box animated fadeIn wow animated" data-wow-duration="1.5s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.5s; animation-name: fadeIn;">
-                <div class="benefit equal-height-column" style="height: 280px;">	<img src="image/logo_app.png" height="100" width="100">
-                    <p><br></p>
-                    <h3>智能人机交互技术研究室</h3>
-                    <p>主要研究对象为人机交互过程中或人机交互设备、网络等产生的数据资源，主要包含移动设备应用日志大数据、移动时空大数据、通信网络大数据等。这些数据来源众多，其异构、时效性高等特性为分析和应用带来了挑战。拟开展的该方向核心技术研究包括：人机交互大数据平台研究，人机交互大数据分析技术研究，人机交互大数据应用（包括智慧交通、智能政务管家、个性化交互式服务等）研究。</p>
-                    <div class="pricing-v9-footer">
-                        <a href="sublabs_html/interaction_sublab.html" target="_blank" class="btn-u btn-u-lg btn-u-light-green btn-u-upper rounded-2x">了解更多</a>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-xs-12">
+                    <div class="swiper-container" id="swiper-research">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide" style="height: 480px">
+                                <div class="col-md-12 benefit-box animated fadeIn wow animated" data-wow-duration="1.5s" style="visibility: visible; animation-duration: 1.5s; animation-name: fadeIn;">
+                                    <div class="benefit equal-height-column" style="height: 480px;">
+                                        <a href="sublabs_html/analysis_sublab.html" target="_blank"><img src="image/logo_sta.png" height="100" width="100"></a>
+                                        <p><br></p>
+                                        <a href="sublabs_html/analysis_sublab.html" target="_blank"><h3>大数据分析方法研究室</h3></a>
+                                        <p>主要研究能够有效处理社会感知数据、教育数据、人机交互数据等具有实际应用背景和特点的大数据学习、分析的理论、模型与方法，为大数据分析的实际应用提供坚实理论基础。<br><br>拟开展的核心技术研究方向包括：多源数据融合与统一表征方法，高维、动态、多源异构数据建模方法，机器学习与数据挖掘方法，面向语音、图像、文本大数据的深度学习模型等。</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" style="height: 480px">
+                                <div class="col-md-12 benefit-box animated fadeIn wow animated" data-wow-duration="1.5s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.3s; animation-name: fadeIn;">
+                                    <div class="benefit equal-height-column" style="height: 480px;">
+                                        <a href="sublabs_html/education_sublab.html" target="_blank">
+                                            <img src="image/logo_ana.png" height="100" width="100"></a>
+                                        <p><br></p>
+                                        <a href="sublabs_html/education_sublab.html" target="_blank"><h3>智慧教育大数据分析与应用研究室</h3></a>
+                                        <p>主要研究对象为教育领域所涵盖的学生学习、教师课堂教学、校园教育管理等应用中的多源异构数据，为解决因材施教以及教育不均衡化问题等提供新视野、新思路、新尝试。<br><br>拟研究的方向包括：教学与学习场景中的学习行为模式挖掘技术、智慧学习环境的评测技术等；学习者的认知诊断技术、学习资源的表征方法、个性化学习资源推荐技术、自适应学习方法等；教育管理场景中的教育舆情分析技术、教育资源的自动化标注和智能配置方法等。</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" style="height: 480px">
+                                <div class="col-md-12 benefit-box animated fadeIn wow animated" data-wow-duration="1.5s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.5s; animation-name: fadeIn;">
+                                    <div class="benefit equal-height-column" style="height: 480px;">
+                                        <a href="sublabs_html/interaction_sublab.html" target="_blank">
+                                            <img src="image/logo_app.png" height="100" width="100">
+                                        </a>
+                                        <p><br></p>
+                                        <a href="sublabs_html/interaction_sublab.html" target="_blank"><h3>智能人机交互技术研究室</h3></a>
+                                        <p>主要研究对象为人机交互过程中或人机交互设备、网络等产生的数据资源，主要包含移动设备应用日志大数据、移动时空大数据、通信网络大数据等。这些数据来源众多，其异构、时效性高等特性为分析和应用带来了挑战。<br><br>拟开展的该方向核心技术研究包括：人机交互大数据平台研究，人机交互大数据分析技术研究，人机交互大数据应用（包括智慧交通、智能政务管家、个性化交互式服务等）研究。</p>
+                                        <br>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" style="height: 480px">
+                                <div class="col-md-12 benefit-box animated fadeIn wow animated" data-wow-duration="1.5s" data-wow-delay=".8s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.8s; animation-name: fadeIn;">
+                                    <div class="benefit equal-height-column" style="height: 480px;">
+                                        <a href="sublabs_html/media_sublab.html">
+                                            <img src="image/logo_plt.png" height="100" width="100">
+                                        </a>
+                                        <p><br></p>
+                                        <a href="sublabs_html/media_sublab.html"><h3>全媒体智能服务技术与应用研究室</h3></a>
+                                        <p>主要研究对象为广电文化传媒领域的各类多样性数据，包括各类广告投放、监测数据、广电网络用户数据、电视电商购物消费者数据等。旨在设计合理的信息化服务和营销解决方案，实现用户文化娱乐需求的精准定位，打造以融合服务为核心的“数字家庭”服务新模式，为政府决策、企业发展规划提供有效的参考。<br><br>拟开展的核心技术研究包括：基于大数据的广电全媒体智能服务研究，基于消费行为大数据的广告精准投放研究，基于大数据分析的广电用户文化消费需求挖掘和应用研究等。</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row equal-height-columns">
-            <div class="col-md-4 benefit-box animated fadeIn wow animated" data-wow-duration="1.5s" data-wow-delay=".8s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.8s; animation-name: fadeIn;">
-                <div class="benefit equal-height-column" style="height: 280px;">	<img src="image/logo_plt.png" height="100" width="100">
-                    <p><br></p>
-                    <h3>全媒体智能服务技术与应用研究室</h3>
-                    <p>主要研究对象为广电文化传媒领域的各类多样性数据，包括各类广告投放、监测数据、广电网络用户数据、电视电商购物消费者数据等。旨在设计合理的信息化服务和营销解决方案，实现用户文化娱乐需求的精准定位，打造以融合服务为核心的“数字家庭”服务新模式，为政府决策、企业发展规划提供有效的参考。拟开展的核心技术研究包括：基于大数据的广电全媒体智能服务研究，基于消费行为大数据的广告精准投放研究，基于大数据分析的广电用户文化消费需求挖掘和应用研究等。</p>
-                    <div class="pricing-v9-footer">
-                        <a href="sublabs_html/media_sublab.html" target="_blank" class="btn-u btn-u-lg btn-u-light-green btn-u-upper rounded-2x">了解更多</a>
+        <div class="g-heading-v10 g-mb-45 text-center">
+            <h2>七大 <strong>研究方向</strong></h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-xs-12">
+                    <div class="swiper-container" id="swiper-direction">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide" style="height: 400px">
+                                <div class="col-md-12 benefit-box animated fadeIn wow animated" data-wow-duration="1.5s" style="visibility: visible; animation-duration: 1.5s; animation-name: fadeIn;">
+                                    <div class="benefit" style="height: 400px">
+                                        <a href="instruction_html/machine_learning.html" target="_blank">
+                                            <img src="image/analysis_sublab_img/machine_learning.png" height="100" width="100">
+                                        </a>
+                                        <p><br></p>
+                                        <a href="instruction_html/machine_learning.html" target="_blank"> <h3>机器学习方法</h3></a>
+                                        <p>主要研究内容包括：（1）优化算法及其加速技术；（2）在线学习与强化学习技术；（3）深度学习技术；（4）大数据学习的其它新方法。目标是研究机器学习相关基础理论和算法工具，提升模型性能和效率，为支撑后续相关应用性工作奠定理论基础。</p>
+                                        <p><br></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" style="height: 400px">
+                                <div class="col-md-12 benefit-box animated fadeIn wow animated" data-wow-duration="1.5s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.3s; animation-name: fadeIn;">
+                                    <div class="benefit" style="height: 400px;">
+                                        <a href="instruction_html/social_network.html" target="_blank">
+                                            <img src="image/analysis_sublab_img/social_network.png" height="100" width="100">
+                                        </a>
+                                        <p><br></p>
+                                        <a href="instruction_html/social_network.html" target="_blank">
+                                            <h3>社交网络分析</h3>
+                                        </a>
+
+                                        <p>主要研究内容包括：（1）异构社交网络表征技术；（2）社会化传播建模；（3）群体行为及趋势分析。其研究目标在于研究异构网络下群体关系和社会化传播的准确刻画。进而研究群体行为的有效度量和群体趋势的准确预测（如群体性突发异常事件和关键人群的检测与速报）。</p>
+                                        <p><br></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" style="height: 400px">
+                                <div class="col-md-12 benefit-box animated fadeIn wow animated" data-wow-duration="1.5s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.5s; animation-name: fadeIn;">
+                                    <div class="benefit" style="height: 400px;">
+                                        <a href="instruction_html/recommender_system.html" target="_blank">
+                                            <img src="image/analysis_sublab_img/recommder_system.png" height="100" width="100">
+                                        </a>
+                                        <p><br></p>
+                                        <a href="instruction_html/recommender_system.html" target="_blank">
+                                            <h3>个性化推荐技术</h3>
+                                        </a>
+                                        <p>主要研究内容包括：（1）多元主体识别与归并；（2）主体特征画像与行为模式分析；（3）个性化推荐方法；（4）情境感知的推荐方法。其研究目标在于研究多源数据中统一主体识别模型，多维的主体兴趣分析方法，情境感知的个性化推荐方法，进而研究多源异构的海量数据上的个性化推荐技术。</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" style="height: 400px">
+                                <div class="col-md-12 benefit-box animated fadeIn wow animated" data-wow-duration="1.5s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.5s; animation-name: fadeIn;">
+                                    <div class="benefit" style="height: 400px;">
+                                        <img src="image/media_sublab_img/mir.jpg" height="100" width="100">
+                                        <p><br></p>
+                                        <h3>多媒体信息处理</h3>
+                                        <p>主要研究内容包括：（1）自然语言处理方法；（2）图像及流媒体分析技术；（3）全媒体信息检索。研究目标是对多媒体应用面临的诸多问题，研究基于语义理解和深度学习的文本、图像以及流媒体大数据的处理与建模方法，满足文化、教育等实际应用中用户的多媒体信息检索、理解等需求。</p>
+                                        <p><br></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" style="height: 400px">
+                                <div class="col-md-12 benefit-box animated fadeIn wow animated" data-wow-duration="1.5s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.5s; animation-name: fadeIn;">
+                                    <div class="benefit" style="height: 400px;">
+                                        <a href="sublabs_html/interaction_sublab.html" target="_blank">
+                                            <img src="image/interaction_sublab_img/hc_interaction.jpg" height="100" width="100">
+                                        </a>
+                                        <p><br></p>
+                                        <a href="sublabs_html/interaction_sublab.html">
+                                            <h3>智能人机交互与可视化技术</h3>
+                                        </a>
+                                        <p>主要研究内容包括：（1）人机交互智能问答系统；（2）数据可视化；（3）个性化交互式服务。其研究目标在于针对人机交互大数据存在的来源众多、异构、时效性高等问题，研究面向深度语义理解的精准用户意图建模方法，进而研究基于强化学习与在线学习的个性化智能决策方法，并提供多维度、多角度的数据可视化。</p>
+                                        <p><br></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" style="height: 400px">
+                                <div class="col-md-12 benefit-box animated fadeIn wow animated" data-wow-duration="1.5s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.5s; animation-name: fadeIn;">
+                                    <div class="benefit" style="height: 400px;">
+                                        <img src="image/education_sublab_img/sci_bigdata.jpg" height="100" width="100">
+                                        <p><br></p>
+                                        <h3>科学大数据分析</h3>
+                                        <p>主要研究内容包括：（1）科学大数据关联分析；（3）多领域知识化学习方法；（3）科学知识图谱。其研究目标是针对物理、化学、材料、生命等交叉学科的科学实验中产生的数据，研究大数据分析模型与方法。</p>
+                                        <p><br><br></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" style="height: 400px">
+                                <div class="col-md-12 benefit-box animated fadeIn wow animated" data-wow-duration="1.5s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.5s; animation-name: fadeIn;">
+                                    <div class="benefit" style="height: 400px;">
+                                        <img src="image/education_sublab_img/bigdata_aa.png" height="100" width="100">
+                                        <p><br></p>
+                                        <h3>大数据分析技术应用</h3>
+                                        <p>主要研究内容包括：（1）智慧教育应用；（3）智慧城市应用；（3）全媒体智能服务应用。其研究目标在于综合运用前述各研究方向的理论及方法研究成果，面向安徽省地方经济特色需求，结合实验室自身优势，为智慧教育、智慧城市、媒体服务等领域大数据应用提供解决方案。</p>
+                                        <p><br></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
                     </div>
-                </div>
-            </div>
-            <div class="col-md-4 benefit-box animated fadeIn wow animated" data-wow-duration="1.5s" data-wow-delay="1s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 1s; animation-name: fadeIn;">
-                <div class="benefit equal-height-column" style="height: 280px;">	<img src="image/logo_fur.png" height="100" width="100">
-                    <p><br></p>
-                    <h3>你所想不到的各种未来挑战</h3>
-                    <p>在数据量快速增长的当下，每一天都有新的问题被提出和解决，而无论未来的挑战是怎样的，我们都已经做好了准备。</p>
                 </div>
             </div>
         </div>
@@ -698,25 +831,25 @@
 
 <section id="publication">
     <div class="container-fluid with-bg-2">
-        <div class="g-pt-60 g-pb-30">
+        <div class="g-pt-70 g-pb-30">
             <div class="g-heading-v10 g-mb-45 text-center">
-                <h2 class="g-color-white"><em class="block-name g-color-white"><span class="g-color-white">04.</span> 科研成果</em> 从 <strong>论文</strong> 到 <strong>专利</strong> 我们都成果丰硕</h2>
+                <h2 class="g-color-white"><em class="block-name g-color-white"><span class="g-color-white">05.</span> 科研成果</em> 从 <strong>论文</strong> 到 <strong>专利</strong> 我们都成果丰硕</h2>
                 <p class="g-color-white">我们在<strong>Nature Communications、IEEE/ACM Transactions</strong>等国际知名期刊和重要国际学术会议<strong>KDD、IJCAI、WWW、SIGIR、AAAI、ICDM、NIPS、ACL、ICML、CVPR、ICCV、SIGGRAPH、ECML-PKDD、CIKM、SDM</strong>等发表学术论文<strong>400</strong>余篇。
                     团队的研究成果引起国内外同行的高度关注，Google Scholar不完全统计累计他引次数超过<strong>15000</strong>次</p>
             </div>
-        <div class="faq">
+        <div class="container">
             <!-- Tab v1 -->
             <div class="tab-v1">
                 <ul class="nav nav-tabs">
-                    <li class="active"><a href="#pub2017" data-toggle="tab" aria-expanded="true" class="g-color-white">2017</a>
+                    <li class="active"><a href="#pub2017" data-toggle="tab" aria-expanded="true" class="g-color-white"><strong>2017</strong></a>
                     </li>
-                    <li class=""><a href="#pub2016" data-toggle="tab" aria-expanded="false" class="g-color-white">2016</a>
+                    <li class=""><a href="#pub2016" data-toggle="tab" aria-expanded="false" class="g-color-white"><strong>2016</strong></a>
                     </li>
-                    <li class=""><a href="#pub2015" data-toggle="tab" aria-expanded="false" class="g-color-white">2015</a>
+                    <li class=""><a href="#pub2015" data-toggle="tab" aria-expanded="false" class="g-color-white"><strong>2015</strong></a>
                     </li>
-                    <li class=""><a href="#pub2014" data-toggle="tab" aria-expanded="false" class="g-color-white">2014</a>
+                    <li class=""><a href="#pub2014" data-toggle="tab" aria-expanded="false" class="g-color-white"><strong>2014</strong></a>
                     </li>
-                    <li class=""><a href="#puboff" data-toggle="tab" aria-expanded="false" class="g-color-white">收起</a>
+                    <li class=""><a href="#puboff" data-toggle="tab" aria-expanded="false" class="g-color-white"><strong>收起</strong></a>
                     </li>
                 </ul>
                 <div class="tab-content">
@@ -1159,7 +1292,7 @@
         <div class="g-heading-v10 g-mb-45 text-center">
             <p class="g-color-white">我们在近三年共获得发明专利<strong>19</strong>项，其中国际<strong>2</strong>，国内<strong>17</strong>项。</p>
         </div>
-        <div class="faq">
+        <div class="container">
             <table class="table table-bordered g-color-white">
                 <thead>
                 <tr>
@@ -1237,22 +1370,22 @@
 
 <section id="project">
     <div class="container">
-        <div class="g-pt-60 g-pb-30">
+        <div class="g-pt-70 g-pb-30">
             <div class="g-heading-v10 g-mb-45 text-center">
-                <h2><em class="block-name"><span>05.</span> 项目奖励</em>于 <strong>项目</strong> 栉风沐雨，于 <strong>奖励</strong> 莫忘初心</h2>
+                <h2><em class="block-name"><span>06.</span> 项目奖励</em>于 <strong>项目</strong> 栉风沐雨，于 <strong>奖励</strong> 莫忘初心</h2>
                 <p>我们近三年来承担国家级项目<strong>33项</strong>，省部级项目<strong>10</strong>项，横向课题<strong>12项</strong></p>
             </div>
         </div>
-        <div class="faq">
+        <div class="container">
             <div class="tab-v1">
                 <ul class="nav nav-tabs">
-                    <li class="active"><a href="#naproj" data-toggle="tab" aria-expanded="true">国家级项目</a>
+                    <li class="active"><a href="#naproj" data-toggle="tab" aria-expanded="true" style="font-weight: bold">国家级项目</a>
                     </li>
-                    <li class=""><a href="#prproj" data-toggle="tab" aria-expanded="false">省部级项目</a>
+                    <li class=""><a href="#prproj" data-toggle="tab" aria-expanded="false" style="font-weight: bold">省部级项目</a>
                     </li>
-                    <li><a href="#anoproj" data-toggle="tab">横向课题</a>
+                    <li><a href="#anoproj" data-toggle="tab" style="font-weight: bold">横向课题</a>
                     </li>
-                    <li><a href="#projoff" data-toggle="tab">收起</a>
+                    <li><a href="#projoff" data-toggle="tab" style="font-weight: bold">收起</a>
                     </li>
                 </ul>
                 <div class="tab-content">
@@ -1416,16 +1549,16 @@
         <div class="g-heading-v10 g-mb-45 text-center">
             <p>我们近五年共获得国家、省部级奖励和国际学术奖励<strong>二十余项</strong></p>
         </div>
-        <div class="faq">
+        <div class="container">
             <div class="tab-v1">
                 <ul class="nav nav-tabs">
-                    <li class="active"><a href="#naaward" data-toggle="tab" aria-expanded="true">国家级奖励</a>
+                    <li class="active"><a href="#naaward" data-toggle="tab" aria-expanded="true"><strong>国家级奖励</strong></a>
                     </li>
-                    <li class=""><a href="#praward" data-toggle="tab" aria-expanded="false">省部级奖励</a>
+                    <li class=""><a href="#praward" data-toggle="tab" aria-expanded="false" style="font-weight: bold">省部级奖励</a>
                     </li>
-                    <li><a href="#sciaward" data-toggle="tab">学术奖励</a>
+                    <li><a href="#sciaward" data-toggle="tab" style="font-weight: bold">学术奖励</a>
                     </li>
-                    <li><a href="#awardjoff" data-toggle="tab">收起</a>
+                    <li><a href="#awardjoff" data-toggle="tab" style="font-weight: bold">收起</a>
                     </li>
                 </ul>
                 <div class="tab-content">
@@ -1549,7 +1682,7 @@
                 <div class="row">
                     <div class="col-md-5">
                         <div class="g-heading-v10 g-mb-65">
-                            <h2 class="g-color-white"><em class="block-name"><span class="g-color-white">06.</span> 联系我们</em> <strong>招贤纳士</strong> </h2>
+                            <h2 class="g-color-white"><em class="block-name"><span class="g-color-white">07.</span> 联系我们</em> <strong>招贤纳士</strong> </h2>
                             <p>不论您初入大学的本科生,希望为科研尽自己一份力。</p>
                             <p>或者是有意读硕(博)深造的同学,在寻找一个优秀的平台。</p>
                             <p>亦或是您已经在学术领域颇有建树,希望加入我们的团队。</p>
@@ -1582,6 +1715,23 @@
     </div>
     <!-- cd-user-modal -->
 </section>
+
+<script language="javascript">
+    var mySwiper3 = new Swiper('#swiper-research',{
+        prevButton:'.swiper-button-prev',
+        nextButton:'.swiper-button-next',
+        slidesPerView : 3,
+        centeredSlides : true,
+        loop: true
+    })
+    var mySwiper4 = new Swiper('#swiper-direction',{
+        prevButton:'.swiper-button-prev',
+        nextButton:'.swiper-button-next',
+        slidesPerView : 3,
+        centeredSlides : true,
+        loop: true,
+    })
+</script>
 
 </body>
 </html>
